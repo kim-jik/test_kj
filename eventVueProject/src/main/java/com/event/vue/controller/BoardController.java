@@ -56,7 +56,7 @@ public class BoardController {
       String pf = (statusCode == 200) ? "success" : "fail";
       
       System.out.println("1. connection " + pf + " in " + (endTime - startTime) + " millisecond");
-      System.out.println("2. Response code: " + statusCode);
+      //System.out.println("2. Response code: " + statusCode);
       
       return httpConn;
   }
